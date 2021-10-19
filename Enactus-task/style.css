@@ -29,7 +29,7 @@
 }
 
 body {
-  width: 80%;
+  width: 100%;
   background-color: #363635;
   -webkit-box-shadow: 1px 1px 20px black;
           box-shadow: 1px 1px 20px black;
@@ -58,18 +58,18 @@ nav .title {
 
 nav .title img:nth-child(1) {
   position: relative;
-  right: 45px;
+  right: 79px;
 }
 
 nav .title img:nth-child(2) {
   position: absolute;
-  top: 21px;
-  left: 55vw;
+  top: 18px;
+  left: 64vw;
 }
 
 nav .title img:nth-child(3) {
   position: absolute;
-  left: 62.3vw;
+  left: 75.3vw;
 }
 
 nav .nav-items {
@@ -107,36 +107,63 @@ nav .nav-items li a {
 nav .nav-items li a:hover {
   color: #FFD910;
 }
+.wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* background: #1E1E1E; */
+  background-image: url(img/banner2-hp-2015.jpg);
+  background-blend-mode:luminosity;
+  /* background-image: url(img/banner1-hp-2015.jpg); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:top;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+  position: relative;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+
+  
+
+}
 
 h1 {
   text-align: center;
   color: #FFD910;
   font-size: 3.7em;
+  font-weight: 500;
   padding: 15vh 0px 6vh;
 }
 
 header {
   overflow: hidden;
   text-align: center;
-  height: 845px;
-  background: #1E1E1E;
+  height: 1000px;
+  font-weight: 800;
 }
 
 header p, header pre {
-  color: white;
+  font-weight: 800;
+  color: rgb(15, 1, 1);
   width: 58vw;
   margin-bottom: 93px;
 }
 
 header p {
-  font-weight: 300;
-  line-height: 4vh;
+  font-weight: 800;
+  line-height: 50px;
   text-align: center;
   font-size: 40px;
 }
 
 header pre {
-  font-size: 3em;
+  font-size: 2.5em;
   line-height: 50px;
 }
 
@@ -148,8 +175,20 @@ header pre span {
   text-align: center;
   line-height: 4vh;
   font-weight: 300;
-  background: #1E1E1E;
+  /* background: #1E1E1E; */
   height: 490px;
+
+  background-image: url(img/banner1-hp-2015.jpg);
+  /* background-image: url(img/banner1-hp-2015.jpg); */
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  background-position:center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; */
+  position: relative;
 }
 
 .about p {
@@ -175,7 +214,7 @@ header pre span {
   height: 105vh;
   background-color: black;
   width: 4px;
-  left: 40vw;
+  left: 50vw;
   top: 45vh;
   z-index: 2;
 }
@@ -191,7 +230,7 @@ header pre span {
 }
 
 .our-projects .bullet:nth-child(1) {
-  margin-top: 9vh;
+  margin-top: 10vh;
 }
 
 .our-projects .projects {
@@ -224,13 +263,13 @@ header pre span {
 
 .our-projects .projects .project:nth-child(1) {
   text-align: left;
-  left: 33vw;
-  top: 16vh;
+  left: 40vw;
+  top: 10vh;
 }
 
 .our-projects .projects .project:nth-child(2) {
   text-align: right;
-  right: 32vw;
+  right: 40vw;
   top: 40vh;
 }
 
@@ -240,13 +279,13 @@ header pre span {
 
 .our-projects .projects .project:nth-child(3) {
   text-align: left;
-  left: 33vw;
+  left: 40vw;
   top: 65vh;
 }
 
 .our-projects .projects .project:nth-child(4) {
   text-align: right;
-  right: 32vw;
+  right: 40vw;
   top: 88vh;
 }
 
